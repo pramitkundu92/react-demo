@@ -1,0 +1,93 @@
+.expense-app {
+    background-color: #474747;
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+.expense-app nav .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #474747;
+    margin-top: -10px;
+    margin-left: 52px;
+    overflow: hidden;
+    position: absolute;
+}
+.expense-app .invisible {
+    display: none;
+}
+.expense-app .topbar-panel {
+    margin: 0 0 10px 0 !important;
+    border-radius: 0;
+    color: white !important;
+}
+.header {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.expense-app .card-panel {
+    color: black;
+    margin: 7px;
+    z-index: 10;
+}
+.expense-app .grid i {
+    cursor: pointer;
+    margin: 3px 8px;
+}
+.expense-app .grid .row {
+    margin: 8px auto;
+}
+.expense-app .grid .header {
+    border-bottom: 1px solid rgba(0,0,0,0.52);
+}
+.expense-app .grid .body {
+    border-bottom: 0.5px solid rgba(0,0,0,0.22);
+}
+.expense-app .margin-left {
+    margin-left: 270px;
+}
+.expense-app .brand-logo {
+    font-size: 24px;
+    padding: 0px 8px;
+}
+.expense-app form input, .expense-app form textarea, .expense-app .datepicker, .expense-app label {
+    font-size: 12px !important;
+}
+.expense-app .header {
+    font-size: 13px;
+    margin: 0 0 10px 0;
+}
+.expense-app button {
+    margin-left: 10px;
+}
+.expense-app .nav-wrapper img {
+    vertical-align: sub;
+    margin-right: 8px;
+}
+.expense-app input {
+    font-size: 12px;
+}
+.expense-app a {
+    cursor: pointer;
+}
+.expense-app .login-card {
+    display: inline-block; 
+    padding: 32px; 
+    border: 1px solid #EEE;
+}
+.expense-app .alert {
+    padding: 9px;
+    color: white;
+    height: 35px;
+    width: 420px;
+    border-radius: 10px;
+}
+.expense-app .top-fixed {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+}
